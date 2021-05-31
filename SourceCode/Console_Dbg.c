@@ -21,8 +21,8 @@
 *********************************************************************************************************
 */
 #include "Cmn_Includes.h"
-#include "Console_Dbg.h"
-#include "test_Prgm.h"
+#include "Test_Includes.h"
+
 
 //#include "CanIfCdd_Includes.h"
 //#include "DcmCdd_Includes.h"
@@ -95,6 +95,8 @@ Cmd_Table_st    Cmd_Table[] = {
     {"cantx",       cmd_CanTx,              msg_Help   },
 
     {"t",           cmd_Test,               msg_Help   },    
+
+    {"secu",        cmd_Secu,               msg_Help   },        
 
     {"exit",        cmd_Exit,               msg_Exit   },
     { NULL,         NULL,                   NULL       }

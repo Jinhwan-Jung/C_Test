@@ -42,21 +42,21 @@
 
 /**
 *********************************************************************************************************
-*   @fn                         int  cmd_Test(int argc, char *argv[])
+*   @fn                         int  cmd_Secu(int argc, char *argv[])
 *   @author         Jinhwan.Jung
 *   @return         default (0)
 *   @remark         StartUp Main Function @n
 *********************************************************************************************************
 */
-int  cmd_Test(int argc, char *argv[])
+int  cmd_Secu(int argc, char *argv[])
 {
     char    cmd = *argv[1];
 
     switch (cmd)
     {
-    case '1'    :   printf("\n Test Case 1");       break;
-    case '2'    :   printf("\n Test Case 2");       break;
-    case '3'    :   printf("\n Test Case 3");       break;
+    case '1'    :   printf("\n Security HKMC");     break;
+    case '2'    :   printf("\n Security SYMC");     break;
+    case '3'    :   printf("\n Security CEVT");     break;
 
     default     :   printf("\n Bad or Not cmd");    break;
 
