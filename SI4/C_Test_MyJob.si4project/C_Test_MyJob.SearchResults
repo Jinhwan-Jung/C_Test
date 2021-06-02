@@ -1,0 +1,5 @@
+---- Console_Dbg Matches (4 in 3 files) ----
+Console_Dbg.c line 7 : *   @file       Console_Dbg.c
+Console_Dbg.c line 24 : #include "Console_Dbg.h"
+Console_Dbg.h line 7 : *   @file       Console_Dbg.h
+main.h line 26 : #include "Console_Dbg.h"
